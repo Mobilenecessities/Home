@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  margin: 7% 15%;
+}
+
+h1 {
+  font-size: 54px;
+  text-align: center;
+  font-family: 'Papyrus', sans-serif;
+}
+
+img {
+  float: left;
+  margin: 20px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 15px;
+  border: 3px solid whitesmoke;
+  margin: 15px;
+}
+
+a:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+.rule {
+  text-align: center;
+  margin: 100px;
+}
+
+.footer {
+  color: lightgray;
+  text-align: center;
+}
+main {
+  background-color: crimson;
+}
+nav {
+  background-color: blueviolet;
+  padding: 15px;
+}
+header {
+  background-color: crimson;
+}
+section {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+footer {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(110, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+  img {
+    float: none;
+    width: 90%;
+  }
+
+  #about {
+    height: 100%;
+  }
+}
